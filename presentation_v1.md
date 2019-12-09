@@ -17,6 +17,33 @@ slidenumbers: true
 # __Why__ security differently?
 
 ---
+
+## Field Guide to 'Human-Error' Investigations by Sydney Dekker
+
+---
+## Old View
+
+[.text: alignment(left)]
+- Human Error is a cause of trouble
+- You need to find people’s mistakes, bad judgements and inaccurate assessments
+- Complex Systems are basically safe
+- Unreliable, erratic humans undermine systems safety
+- Make systems safer by restricting the human condition
+
+---
+# New View
+
+[.text: alignment(left)]
+- Human error is a symptom of deeper system trouble
+- Instead, understand how their assessment and actions made sense at the time - context matters
+- Complex systems are basically unsafe
+- Complex systems are tradeoffs between competing goals safety vs. efficiency
+- People must create safety through practice at all levels
+
+---
+### Outcomes are the ultimate measurement of effectiveness
+
+---
 ^ The Problem is Obvious
 
 ![](images/obviousproblem.jpg)
@@ -93,6 +120,8 @@ insert image
 ---
 ## __RETHINK__
 # Architecture vs. Archineering
+^Explain the thing first...Establish what we think '' actually is before i explain what its not
+^make the architecture slide look like an architecture diagram
 
 ---
 
@@ -114,6 +143,7 @@ insert image
 ---
 ## __RETHINK__
 # Threat intel 
+^Establish what we think "Threat Intel is "
 
 ---
 
@@ -121,7 +151,7 @@ insert image
 
 ---
 ## __RETHINK__
-## Deception = Deception + Work = Misconception
+## Deception = Deception + Work = Confusion
 
 ---
 ## __RETHINK__
@@ -138,6 +168,7 @@ insert image
 
 ### If the security policies aren’t understood or cant be explained effectively by security how are engineers expected to translate them into real-life product?
 
+^Netflix does not have actualy security policy. They codify what 
 
 ---
 ## __RETHINK__
@@ -244,30 +275,9 @@ insert image
 
 > Everyone is responsible for the engineering not just the security.
 
---Me
 
 ---
-## Field Guide to 'Human-Error' Investigations by Sydney Dekker
 
----
-## Old View
-
-[.text: alignment(left)]
-- Human Error is a cause of trouble
-- You need to find people’s mistakes, bad judgements and inaccurate assessments
-- Complex Systems are basically safe
-- Unreliable, erratic humans undermine systems safety
-- Make systems safer by restricting the human condition
----
-# New View
-
-[.text: alignment(left)]
-- Human error is a symptom of deeper system trouble
-- Instead, understand how their assessment and actions made sense at the time - context matters
-- Complex systems are basically unsafe
-- Complex systems are tradeoffs between competing goals safety vs. efficiency
-- People must create safety through practice at all levels
----
 # 
 
 ---
