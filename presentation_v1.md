@@ -1,8 +1,10 @@
-footer: © Verica
-slidenumbers: true
+footer:   ![inline 10%](images/vericalogo.png)
+slidenumbers: false
 
 
 ![](images/Aaron Rinehart \(1\).png)
+
+[.hide-footer]
 
 ---
 # Security **Differently**
@@ -13,34 +15,67 @@ slidenumbers: true
 ---
 ![](images/whoami.jpg)
 
+[.hide-footer]
+
+---
+
+
 ---
 # __Why__ security differently?
 
+^Security Differently comes from Sydney Dekkers Safety Differently Lecture where it states that 
+^"Safety differently’ is about relying on people’s expertise, insights and the dignity of work as actually done to improve safety and efficiency. It is about halting or pushing back on the ever-expanding bureaucratization and compliance of work."
+
 ---
 
-## Field Guide to 'Human-Error' Investigations by Sydney Dekker
+## __Safety__ and __Security__ have a lot in common 
 
 ---
-## Old View
+## Safety Differently Origins
+![right](images/saftydiff.jpg)
 
 [.text: alignment(left)]
-- Human Error is a cause of trouble
-- You need to find people’s mistakes, bad judgements and inaccurate assessments
-- Complex Systems are basically safe
-- Unreliable, erratic humans undermine systems safety
-- Make systems safer by restricting the human condition
+> __"Safety differently__' is about relying on people’s expertise, insights and the dignity of work as actually done to improve safety and efficiency. It is about halting or pushing back on the ever-expanding bureaucratization and compliance of work."
+
+-- Sydney Dekker
 
 ---
-# New View
+> ## "__Security differently__’ is about relying on people’s expertise, insights and the dignity of work as actually done to improve security and efficiency. It is about halting or pushing back on the ever-expanding bureaucratization and compliance of work." 
+
+---
+
+## Security __Currently__ vs. Security __Differently__
+
+| Security Currently | __Security Differently__ |
+| --- | --- |
+| People are the Source of Problems| __People are the Solution__ |
+| Tell them what to do| __Ask them what they need__ |
+| (Control & Compliance)  | __Competency & Common Sense__ |
+| Count absence of Negative events  | __Count Presence of Positives__|
+
+---
+
+### __Fact__: No system is secure on its own, it requires humans to create it
+
+---
+
+# Security __Currently__
 
 [.text: alignment(left)]
-- Human error is a symptom of deeper system trouble
-- Instead, understand how their assessment and actions made sense at the time - context matters
-- Complex systems are basically unsafe
-- Complex systems are tradeoffs between competing goals safety vs. efficiency
-- People must create safety through practice at all levels
+
+- Are we doing the things that really matter?
+- What is the best measurement of performance?
+- How much are we learning from our past performance?
+- How do we know when we’re doing well?
+
+^Is how we are doing security today effective at solving the problems?
+^Is what we’re doing counting?
+^Are we counting what counts?
+ ^Are we simply just counting what we can count?
+^Or are we counting only that which we are being held accountable for via regulations, compliance, policy, etc.?
 
 ---
+
 ### Outcomes are the ultimate measurement of effectiveness
 
 ---
@@ -60,6 +95,7 @@ slidenumbers: true
 ---
 ## System Engineering is a 
 # __Messy__ _Affair_
+![](images/appupgrades.jpg)
 
 ---
 ![](images/messy4.jpg)
@@ -74,54 +110,58 @@ slidenumbers: true
 ![](images/messy3.jpg)
 
 ---
-# Complex Adaptive Systems are Problematic
+## Complex Systems are __Challenging__
 
-insert image
+![](images/EIT9VpSX0AAlAHM.png)
 
 ---
 
-# Complex Systems Traits
+# Complex Systems __Traits__
+
 [.text: alignment(left)]
-• Cascading Failures 
-• Diﬃcult to determine boundaries 
-• Complex systems may be open 
-• Complex systems may have a memory 
-• Complex systems may be nested 
+• Cascading Failures
+• Diﬃcult to determine boundaries
+• Difficult to Model Behavior
 • Dynamic network of multiplicity 
-• May produce emergent phenomena 
+• May produce emergent phenomena
 • Relationships are non-linear 
 • Relationships contain feedback loops
 
 ---
-# Examples of Complex Systems
+[.text: alignment(left)]
+# __Examples__ of Complex Systems
 • Global Financial Markets
 • Nation-State PoliicS
 • Weather Patterns
 • The Human Body
 • Bird Patterns
-• Distributed Computing Systems (aka your systems)
+• Distributed Computing Systems (__aka your systems__)
 
 ---
 ## __Fact:__ Outages & Breaches will continue to get worse 
 
 ----
-# Unless we begin thinking differently
+## Unless we begin thinking differently
 
 ---
-# Software has taken over everything
+## Software has taken over everything
 
 ---
 ![](images/softwareosi.jpg)
 
 ---
 
-# Time to __Rethink/Think__ a Few Things Through
+## Areas of potential improvement
 
 ---
-## __RETHINK__
-# Architecture vs. Archineering
+
+
+## Architecture vs. Archineering
 ^Explain the thing first...Establish what we think '' actually is before i explain what its not
 ^make the architecture slide look like an architecture diagram
+![](images/abstract-art-artistic-1020315.jpg)
+
+^Issues with Architecture Practices in today's software and internet driven world. How is architecture still important? Has it lost its relevance or importance or do we just need to rethink our processes, tools and methods to align.
 
 ---
 
@@ -132,16 +172,15 @@ insert image
 ^You cannot model a complex systems behaviour, the only way to understand it is by interacting with it
 
 ---
-## __RETHINK__
+
 # Architecture Patterns
 
----
-## __RETHINK__
-## Did architecture patterns ever really work? Sometimes/Always/Never?
+^Architecture Patterns have always been an 
 
+^## Did architecture patterns ever really work? Sometimes/Always/Never?
 
 ---
-## __RETHINK__
+
 # Threat intel 
 ^Establish what we think "Threat Intel is "
 
@@ -150,18 +189,18 @@ insert image
 ### All the intel feeds in the world won't mean much if you don’t have your house in order 
 
 ---
-## __RETHINK__
-## Deception = Deception + Work = Confusion
+
+## Deception Techniques = More Attack Surface Management
 
 ---
-## __RETHINK__
+
 ## AI/ML/DL/RL & Quantum Entanglement will not magically solve your problems
 
 ---
-# AI does not yet exist, just stop
+## AI does not yet exist, just stop
 
 ---
-## __RETHINK__
+
 # Security Policies 
 
 ---
@@ -171,8 +210,8 @@ insert image
 ^Netflix does not have actualy security policy. They codify what 
 
 ---
-## __RETHINK__
 # Risk Management
+![](images/colors-3185020.jpg)
 
 ---
 
@@ -222,7 +261,7 @@ insert image
 ## Resilience doesn’t mean what you think it means 
 
 ---
-# Resilience != BR/DCP
+# __Resilience__ != DR/BCP
 
 ---
 
@@ -232,31 +271,50 @@ insert image
 
 ---
 
-# Safety and Security have a lot in common 
+# __Failure is__ the __Normal__ Condition
 
 ---
 
-# Failure is the Normal Condition
+## __Humans aren’t the problem__, they are the __solution__
 
 ---
 
-## Humans aren’t the problem, they are the solution 
+# __Root Causes__ Dont Exist
+
+---
+## Field Guide to 'Human-Error' Investigations by Sydney Dekker
+
+---
+## Old View
+
+[.text: alignment(left)]
+- Human Error is a cause of trouble
+- You need to find people’s mistakes, bad judgements and inaccurate assessments
+- Complex Systems are basically safe
+- Unreliable, erratic humans undermine systems safety
+- Make systems safer by restricting the human condition
+
+---
+# New View
+
+[.text: alignment(left)]
+- Human error is a symptom of deeper system trouble
+- Instead, understand how their assessment and actions made sense at the time - context matters
+- Complex systems are basically unsafe
+- Complex systems are tradeoffs between competing goals safety vs. efficiency
+- People must create safety through practice at all levels
 
 ---
 
-# Root Causes Dont Exist
+# __Automation__ isn’t a magic answer
 
 ---
 
-# Automation isn’t a magic answer
+# __Focus__ on what matters most.
 
 ---
 
-# Focus on what matters most.
-
----
-
-# Value Chain
+# __Value Chain__
 
 ### As a security professional can you clearly articulate where you sit in your company’s value chain?
 
@@ -267,21 +325,32 @@ insert image
 
 # **Everyone** must code
 
-# Going forward everyone must understand how to write software is a **must**
+---
 
-* Python is a good start, it was originally designed for children
+### Going forward everyone must understand how to write software is a **must**
+
+---
+
+#### Python is a good start, it was originally designed for children
 
 ---
 
 > Everyone is responsible for the engineering not just the security.
 
+---
+
+# Summary & Take Aways
 
 ---
 
-# 
+# Apply what you learned
 
 ---
-# 
+
+![inline](images/vericalogo.png)
+
+---
+# Thank You Austin!
 
 ---
 
